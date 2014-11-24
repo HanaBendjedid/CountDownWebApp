@@ -24,8 +24,8 @@ public class CountDown extends HttpServlet {
 	}
 
 	private String diff() {
-		String theDate = "10/12/2013 12:30:00";
-		String pattern = "dd/MM/yyyy HH:mm:ss";
+		String theDate = "11-24-2014" 12:30:00";
+		String pattern = "MM-dd-yyyy HH:mm:ss";
 		Date d2 = null;
 		try {
 			d2 = new SimpleDateFormat(pattern).parse(theDate);
